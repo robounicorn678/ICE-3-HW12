@@ -1,4 +1,0 @@
-Time resolution is 1 ps
-Failure: bad with ones
-Time: 50 ns  Iteration: 0  Process: /ripple_adder_tb/test_process  File: C:/Users/C27Charles.Liermann/Documents/ECE281/ICE_ICE_BABY/ICE-3-HW12/src/ripple_adder_tb.vhd
-$finish called at time : 50 ns : File "C:/Users/C27Charles.Liermann/Documents/ECE281/ICE_ICE_BABY/ICE-3-HW12/src/ripple_adder_tb.vhd" Line 57

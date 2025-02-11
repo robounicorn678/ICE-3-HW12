@@ -152,3 +152,28 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // [Engine Memory]: 794 MB (+3196kb) [00:00:19]
 // WARNING: HEventQueue.dispatchEvent() is taking  3131 ms.
 // Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 839 MB. GUI used memory: 81 MB. Current time: 2/11/25, 4:32:43 PM MST
+// [Engine Memory]: 839 MB (+5533kb) [00:00:21]
+// Project name: ripple_adder; location: C:/Users/C27Charles.Liermann/Documents/ECE281/ICE_ICE_BABY/ICE-3-HW12; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ripple_adder_tb(test_bench) (ripple_adder_tb.vhd)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ripple_adder_tb(test_bench) (ripple_adder_tb.vhd)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ripple_adder_tb(test_bench) (ripple_adder_tb.vhd)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 28 seconds
+selectCodeEditor("ripple_adder_tb.vhd", 520, 87); // ae (ripple_adder_tb.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("ripple_adder_tb.vhd", 494, 142); // ae (ripple_adder_tb.vhd)
+selectCodeEditor("ripple_adder_tb.vhd", 494, 142, false, false, false, false, true); // ae (ripple_adder_tb.vhd) - Double Click
+selectCodeEditor("ripple_adder_tb.vhd", 491, 191); // ae (ripple_adder_tb.vhd)
+selectCodeEditor("ripple_adder_tb.vhd", 491, 191, false, false, false, false, true); // ae (ripple_adder_tb.vhd) - Double Click
+selectCodeEditor("ripple_adder_tb.vhd", 541, 143); // ae (ripple_adder_tb.vhd)
+selectCodeEditor("ripple_adder_tb.vhd", 541, 143, false, false, false, false, true); // ae (ripple_adder_tb.vhd) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01m:20s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01m:22s

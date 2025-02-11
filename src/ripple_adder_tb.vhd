@@ -54,7 +54,7 @@ begin
         w_addends <= x"60"; w_Cin <= '0'; wait for 10 ns;
 	       assert (w_sum = x"6" and w_Cout = '0') report "bad with 6 & 0" severity failure;
 		w_addends <= x"90"; w_Cin <= '0'; wait for 10 ns;
-	       assert (w_sum = x"9" and w_Cout = '1') report "bad with 9 & 0" severity failure;
+	       assert (w_sum = x"9" and w_Cout = '0') report "bad with 9 & 0" severity failure;
 		wait; -- wait forever
 	end process;	
 	-----------------------------------------------------	

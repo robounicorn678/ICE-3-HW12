@@ -23,3 +23,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/C27Charles.Liermann/Documents/ECE281/ICE_ICE_BABY/ICE-3-HW12/ripple_adder.xpr
+update_compile_order -fileset sources_1
